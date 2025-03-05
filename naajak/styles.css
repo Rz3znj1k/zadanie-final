@@ -1,0 +1,69 @@
+/* Podstawowe style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #2a9d8f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2a9d8f;
+    color: white;
+    margin-top: 20px;
+}
+
+.intro p, .about p {
+    margin: 10px 0;
+}
+
+.highlights ul {
+    list-style-type: none;
+}
+
+.highlights li {
+    margin: 10px 0;
+}
+
+.highlights a {
+    text-decoration: none;
+    color: #2a9d8f;
+}
